@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+body{
+    background-color: rgba(51, 4, 66, 1);
+    
+}
+
+.titulo {
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+.facil {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;    
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(85, 195, 49, 1);
+}
+
+.medio {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(221, 234, 38, 0.85);
+}
+
+.dificil {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+</style>
+
+
+<body>
+
+
+<div><h1 class="titulo">ESCOLHA A <br>DIFICULDADE</h1></div>
+
+<div class="botoes">
+    <button class="facil">FÁCIL</button>
+    <button class="medio">MÉDIO</button>
+    <button class="dificil">DIFÍCIL</button>
+</div>
+
+    
+</body>
+</html>
