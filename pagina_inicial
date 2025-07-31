@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+</head>
+
+
+
+<style>
+
+body {
+    background-color:rgba(51, 4, 66, 1);
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    color: aliceblue;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 50px;
+    font-family:"Gruppo", sans-serif;
+    color: aliceblue;
+    margin-top: -100px;
+}
+
+.botaodeplay {
+    background-color: rgba(221, 234, 38, 0.85);
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.gruppo-regular {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+
+
+<body>
+    
+<div>
+    <h1 class="titulo">QUIZ</h1>
+    <h2 class="subtitulo">CRIMES VIRTUAIS</h2>
+</div>
+
+
+<div>
+    <button class="botaodeplay">PLAY</button>
+</div>
+
+</body>
+</html>
