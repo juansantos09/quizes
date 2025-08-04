@@ -44,6 +44,7 @@ body {
     font-size: 40px;
     font-weight: bold;
     margin-top: 1%;
+    transition: transforme 0.1s;
 }
 
 .gruppo-regular {
@@ -51,6 +52,14 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.botaodeplay:hover {
+      transform: scale(1.15);
+
+}
+
+
+
 </style>
 
 
@@ -63,7 +72,7 @@ body {
 
 
 <div>
-    <button class="botaodeplay">PLAY</button>
+    <a href="dificuldades.html"><button class="botaodeplay">PLAY</button></a>
 </div>
 
 </body>
