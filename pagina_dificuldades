@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz</title>
 </head>
 
 <style>
@@ -29,6 +29,7 @@ body{
     font-weight: bold;
     border-radius: 30px;
     background-color: rgba(85, 195, 49, 1);
+    transition: transforme 0.1s;
 }
 
 .medio {
@@ -39,6 +40,7 @@ body{
     font-weight: bold;
     border-radius: 30px;
     background-color: rgba(221, 234, 38, 0.85);
+    transition: transforme 0.1s;
 }
 
 .dificil {
@@ -49,6 +51,7 @@ body{
     font-weight: bold;
     border-radius: 30px;
     background-color: rgba(255, 0, 0, 1);
+    transition: transforme 0.1s;
 }
 
 .botoes {
@@ -56,6 +59,10 @@ body{
     justify-content: center;
     gap: 70px;
     margin-top: 80px;
+}
+
+button:hover{
+      transform: scale(1.05);
 }
 
 </style>
