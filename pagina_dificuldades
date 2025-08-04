@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <title>Quiz</title>
 </head>
 
@@ -10,13 +11,13 @@
 
 body{
     background-color: rgba(51, 4, 66, 1);
+    font-family: 'Orbitron', sans-serif;
     
 }
 
 .titulo {
     text-align: center;
     font-size: 70px;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
     color: aliceblue;
 }
@@ -28,6 +29,8 @@ body{
     font-size: 30px;
     font-weight: bold;
     border-radius: 30px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
     background-color: rgba(85, 195, 49, 1);
     transition: transforme 0.1s;
 }
@@ -39,6 +42,8 @@ body{
     font-size: 30px;
     font-weight: bold;
     border-radius: 30px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
     background-color: rgba(221, 234, 38, 0.85);
     transition: transforme 0.1s;
 }
@@ -50,6 +55,8 @@ body{
     font-size: 30px;
     font-weight: bold;
     border-radius: 30px;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
     background-color: rgba(255, 0, 0, 1);
     transition: transforme 0.1s;
 }
@@ -63,6 +70,7 @@ body{
 
 button:hover{
       transform: scale(1.05);
+      box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
 }
 
 </style>
@@ -74,7 +82,7 @@ button:hover{
 <div><h1 class="titulo">ESCOLHA A <br>DIFICULDADE</h1></div>
 
 <div class="botoes">
-    <button class="facil">FÁCIL</button>
+    <a href="facil.html"><button class="facil">FÁCIL</button></a>
     <button class="medio">MÉDIO</button>
     <button class="dificil">DIFÍCIL</button>
 </div>
